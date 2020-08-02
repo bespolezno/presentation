@@ -8,10 +8,11 @@ const TheView = {
         Slide
     },
     // language=HTML
-    template: `
+    template: `<div>
         <transition :name="direction">
             <slide :slide="slide.slide" :key="slide.id"></slide>
-        </transition>`
+        </transition>
+    </div>`
 };
 
 export default TheView;
