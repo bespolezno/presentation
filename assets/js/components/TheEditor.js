@@ -17,7 +17,7 @@ const TheEditor = {
     },
     // language=HTML
     template: `
-        <div>
+        <div class="slide">
             <div ref="editor"></div>
             <button @click="save">Save</button>
         </div>`
