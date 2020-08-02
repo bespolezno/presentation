@@ -143,13 +143,10 @@ window.app = new Vue({
 
             const method = {
                 "Delete": this.delete,
-                5: this.edit,
-                6: this.view,
-                7: this.route,
-                "ArrowRight": this.changeSlide.bind(this, "right"),
                 "ArrowUp": this.changeSlide.bind(this, "top"),
-                "ArrowLeft": this.changeSlide.bind(this, "left"),
+                "ArrowRight": this.changeSlide.bind(this, "right"),
                 "ArrowDown": this.changeSlide.bind(this, "bottom"),
+                "ArrowLeft": this.changeSlide.bind(this, "left"),
                 1: this.changeSlide.bind(this, "top"),
                 2: this.changeSlide.bind(this, "right"),
                 3: this.changeSlide.bind(this, "bottom"),
